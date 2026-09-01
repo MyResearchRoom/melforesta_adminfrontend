@@ -9,7 +9,7 @@ import { AiOutlineProduct } from "react-icons/ai";
 import { MdMiscellaneousServices, MdOutlinePeopleAlt } from "react-icons/md";
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchCounts } from '../../../../redux/actions/countAction'
-import DashboardCard from "../../../common/Admin/dashboardcart";
+import DashboardCard from "../../../common/admin/dashboardcart";
 import { GiCancel } from 'react-icons/gi'
 import { BiCommentDetail } from 'react-icons/bi'
 import { useNavigate } from 'react-router-dom'
