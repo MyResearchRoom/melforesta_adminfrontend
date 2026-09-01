@@ -1,4 +1,4 @@
-import DashboardCard from "../../../common/Admin/dashboardcart";
+import DashboardCard from "../../../common/admin/dashboardcart";
 import { AiOutlineProduct } from "react-icons/ai";
 import {BiSolidOffer } from "react-icons/bi";
 import { BsBoxSeam } from "react-icons/bs";
@@ -6,7 +6,7 @@ import { CiDeliveryTruck } from "react-icons/ci";
 import { FaCheckCircle, FaUndoAlt } from "react-icons/fa";
 import { LuCircleDashed } from "react-icons/lu";
 import { MdFiberNew, MdOutlineCategory, MdSell } from "react-icons/md";
-import ProductServiceDashCard from '../../../common/Admin/productservicedashcart'
+import ProductServiceDashCard from '../../../common/admin/productservicedashcart'
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCounts } from "../../../../redux/actions/countAction";
 import { useEffect } from "react";
