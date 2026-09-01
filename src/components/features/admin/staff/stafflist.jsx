@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { FaFilter, FaLock, FaLockOpen, FaPen } from "react-icons/fa";
 import { toast } from "react-toastify";
-import ChangePasswordModal from "../../../common/Admin/changepassword";
+import ChangePasswordModal from "../../../common/admin/changepassword";
 import capitalizeFirstLetter from "../../../common/capitalizeFirstLetter"
 import { savePassword } from "../../../../services/savePassword";
 import axios from "axios";
